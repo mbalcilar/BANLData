@@ -1,0 +1,32 @@
+Package: bvars
+Type: Package
+Title: Estimation and forecasting of bayesian VAR models
+Version: 0.1.2
+Authors@R: person("Balcilar","Mehmet",email="mehmet@mbalcilar.net",role=c("aut","cre"))
+Description: This package estimates bayesian VAR models. The user can choose between several priors (e.g., Minnesota or Uninformative prior).
+    It also has functions to calculate and plot IRF-models, forecasts, and Forecast Error Variance Decompositions.
+License: GPL-3
+Depends:
+    R (>= 3.3.0)
+Imports:
+    MASS,
+    dplyr,
+    gridExtra,
+    ggplot2,
+    ggfortify,
+    magrittr,
+    pracma,
+    extraDistr,
+    purrr, 
+    Rdpack
+Suggests:
+    doParallel,
+    foreach,
+    parallel,
+    knitr
+URL: https://www.mbalcilar.net
+BugReports: https://www.mbalcilar.net
+VignetteBuilder: knitr, rmarkdown
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
